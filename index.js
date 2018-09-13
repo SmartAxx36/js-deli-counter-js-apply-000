@@ -2,8 +2,8 @@
     katzDeli.push(name)
   return ("Welcome, "+ name +". You are number "+(katzDeli.length)+" in line.")
 }*/
-function takeANumber(katzDeli) {
  let num=0
+function takeANumber(katzDeli) {
  num++;
  katzDeli.push(num)
  return ("You are "+num)
