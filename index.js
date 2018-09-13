@@ -1,8 +1,13 @@
-function takeANumber(katzDeli, name) {
+/*function takeANumber(katzDeli, name) {
     katzDeli.push(name)
   return ("Welcome, "+ name +". You are number "+(katzDeli.length)+" in line.")
+}*/
+function takeANumber(katzDeli) {
+ let num=0
+ num++;
+ katzDeli.push(num)
+ return ("You are "+num)
 }
-
 
 
 function nowServing(katzDeliLine) {
